@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap&_cacheOverride=1642530232348" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <section class="controleGastos">
+            <h1>Controle de Gastos</h1>
+            <p>❤ ❤ ❤</p>
+
+            <div class="controleGastos__orçamento">
+                <h2>Total Orçamento</h2>
+                <input type="number" class="controleGastos__input">
+                <button class="calcular">Calcular</button>
+            </div>
+
+            <div class="controleGastos__despesa">
+                <h2>Nome Despesa</h2>
+                <input type="text" class="nomeDespesa">
+                <h2>Valor Despesa</h2>
+                <input type="number" class="valorDespesa">
+                <button class="adicionarDespesa">Adicionar despesa</button>
+            </div>
+
+            <div class="container">
+                <div class="containerDespesa">
+                    <p>Título despesa</p>
+                    <p>Valor despesa</p>
+                </div>
+
+                <div class="containerDespesa__lista"></div>
+            </div>  
+
+        </section>
+
+        <section class="impressaoResultados">
+
+            <div class="impressaoResultados__orcamento">
+                <h3>Orçamento</h3>
+                <p>+ R$ 0</p>
+            </div>
+
+            <div class="impressaoResultados__despesa">
+                <h3>Despesas</h3>
+                <p>- R$ 0</p>
+            </div>
+
+            <div class="impressaoResultados__saldo">
+                <h3>Saldo</h3>
+                <p>R$ 0</p>
+            </div>
+
+            <div class="impressaoResultados__img">
+                <img src="" alt="">
+            </div>
+
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

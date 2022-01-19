@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    color: #fff;
+}
+
+body {
+    background:#330000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 800 400'%3E%3Cdefs%3E%3CradialGradient id='a' cx='396' cy='281' r='514' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23D18'/%3E%3Cstop offset='1' stop-color='%23330000'/%3E%3C/radialGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='400' y1='148' x2='400' y2='333'%3E%3Cstop offset='0' stop-color='%23FA3' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FA3' stop-opacity='0.5'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='800' height='400'/%3E%3Cg fill-opacity='0.4'%3E%3Ccircle fill='url(%23b)' cx='267.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='532.5' cy='61' r='300'/%3E%3Ccircle fill='url(%23b)' cx='400' cy='30' r='300'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    width: 108rem;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 6rem;
+}
+
+section {
+    box-shadow: 2rem 2rem 5rem rgba(61, 61, 61, 0.5);
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0.8rem;
+    padding: 1.3rem 3rem;
+}
+
+input {
+    width: 100%;
+    height: 3rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 25px -10px rgba(0, 0, 0, 0.8);
+    padding: 0 1rem;
+    margin: 1rem 0;
+}
+button {
+    width: 100%;
+    border: none;
+    padding: 0.8rem 0;
+    background: rgba(216, 112, 112);
+    border-radius: 0.5rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.7rem;
+    outline-color: #fff;
+}
+
+.controleGastos {
+    width: 70rem;
+    height: 59rem;
+}
+.controleGastos h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+.controleGastos p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.controleGastos__orçamento {
+    display: block;
+}
+.controleGastos__orçamento h2 {
+    border-bottom: 1px solid rgba(219, 219, 219, 0.322);
+    padding-bottom: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 2.4rem;
+}
+
+.controleGastos__despesa h2 {
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+
+.containerDespesa {
+    display: flex;
+    margin-top: 0.5rem;
+}
+.containerDespesa p {
+    display: block;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-right: 17rem;
+    margin-bottom: 1rem;
+}
+.containerDespesa__lista {
+    overflow-y: scroll;
+    max-height: 10rem;
+}
+.containerDespesa__lista ul li {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(167, 95, 95, 0.712);
+    list-style: none;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+}
+.containerDespesa__lista ul li p {
+    font-size: 1.5rem;
+}
+
+.impressaoResultados {
+    width: 30rem;
+    height: 59rem;
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 2.3rem;
+    line-height: 4rem;
+    font-weight: bold;
+}
+.impressaoResultados div {
+    margin-bottom: 3rem;
+}
+.impressaoResultados__orcamento p {
+    color: chartreuse;
+}
+.impressaoResultados__despesa p {
+    color: rgb(255, 97, 97);
+}
+.impressaoResultados__saldo p {
+    color: rgb(0, 204, 255);
+}
