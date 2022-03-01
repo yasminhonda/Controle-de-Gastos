@@ -1,7 +1,7 @@
 # Controle de Gastos - Elas Codam
 
 Projeto desenvolvido pelas instrutoras da Kenzie Academy Brasil para o evento Elas Codam, em parceria com a [Dupla Tech](https://www.duplatech.com/).
-site: https://yasminhonda.github.io/Controle-de-Gastos/
+<br>site: https://yasminhonda.github.io/Controle-de-Gastos/
 
 # O Projeto
 
