@@ -5,7 +5,7 @@ Projeto desenvolvido pelas instrutoras da Kenzie Academy Brasil para o evento El
 
 # O Projeto
 
-Faz o calculo de gastos ao adicionar o total de orçamento, e depois poder adicionar as despesas e reduzir do total do orçamento. Podendo também nomear as despesas, e excluir caso necessário. 
+Faz o calculo de gastos ao adicionar o total de orçamento, e depois pode adicionar as despesas e reduzir do total do orçamento. Podendo também nomear as despesas, e excluir caso necessário. 
 
 # Atualizações próprias
 
